@@ -1,0 +1,90 @@
+.profile-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.avatar-container {
+  margin-left: 2em;
+  margin-right: 2em;
+  padding-top: 1%;
+}
+.student-container {
+  width: 80%;
+  text-align: left;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border: grey solid 1px;
+  border-radius: 50%;
+  margin-top: 10%;
+}
+.name {
+  color: black;
+  margin-bottom: 0.5em;
+  float: left;
+}
+.info {
+  color: black;
+  margin: 1em;
+}
+hr.solid {
+  border-top: 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name-container {
+  overflow: auto;
+}
+
+.expand-button {
+  border: none;
+  background-color: white;
+  color: rgb(126, 126, 126);
+  float: right;
+  font-size: 60px;
+  font-family: Courier;
+}
+
+.expand-button:hover {
+  color: rgb(0, 0, 0);
+}
+.expandable {
+  display: none;
+}
+.collapse {
+  margin-top: 30px;
+}
+.grades {
+  display: flex;
+}
+.grade {
+  margin-left: 6%;
+}
+
+.tagInput {
+  border: hidden;
+  border-bottom: 1px solid black;
+  width: 12%;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+.tagInput::placeholder {
+  color: rgb(126, 126, 126);
+}
+
+.tag-container{
+  display: flex;
+  margin-top: 2%;
+}
+
+.tag{
+  background-color: rgb(216, 216, 216);
+  margin-right: 2%;
+  padding: 0.5em;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+}
